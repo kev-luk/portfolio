@@ -16,7 +16,7 @@ const Home = () => {
         <animated.div style={props} className="text-center home">
             <Typing />
             <p>I'm a student at the University of Virginia studying computer science and an aspiring full-stack web developer.
-            Feel free to checkout my work in the links below or contact me.
+            Feel free to check out my work in the links below or contact me.
                 Have a great day!</p>
             <IconLinks />
         </animated.div>
