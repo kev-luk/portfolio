@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
 import NotFound from './components/NotFound'
 import { Container } from 'react-bootstrap'
-import Background from './components/Background'
 
 function App() {
   return (
