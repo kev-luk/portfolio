@@ -7,7 +7,7 @@ const Typing = () => {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString('Hello World!')
+                        .typeString('Hello world!')
                         .pauseFor(2000)
                         .deleteAll()
                         .typeString('How are you?')
