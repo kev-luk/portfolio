@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
 import NotFound from './components/NotFound'
 import { Container } from 'react-bootstrap'
-import Background from './components/Background'
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
     >
       <div style={{ maxWidth: "500px" }}>
         <BrowserRouter>
-          <Background />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route component={NotFound} />
