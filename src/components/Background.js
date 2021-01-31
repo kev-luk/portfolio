@@ -5,10 +5,11 @@ const Background = () => {
     return (
         <div
             style={{
-                position: "absolute",
+                position: "fixed",
                 top: 0,
                 left: 0,
-                height: '100px',
+                height: '100%',
+                width: "100%",
                 zIndex: -1
             }}
         >
@@ -40,7 +41,7 @@ const Background = () => {
                             "anim": {
                                 "enable": true,
                                 "speed": 1,
-                                "opacity_min": 0.05
+                                "opacity_min": 0.01
                             }
                         }
                     },
