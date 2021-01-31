@@ -7,13 +7,13 @@ const Typing = () => {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString('Hello world!')
+                        .typeString('Hello world')
                         .pauseFor(2000)
                         .deleteAll()
                         .typeString('How are you?')
                         .pauseFor(2000)
                         .deleteAll()
-                        .typeString("I'm Kevin Luk👋")
+                        .typeString("I'm Kevin Luk")
                         .start()
                 }}
             />

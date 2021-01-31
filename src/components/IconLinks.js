@@ -29,7 +29,7 @@ const IconLinks = () => {
                 placement="bottom"
                 overlay={
                     <Tooltip id="button-tooltip" >
-                        Github
+                        GitHub
                     </Tooltip>
                 }
             >
