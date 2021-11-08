@@ -3,7 +3,6 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { FiMail } from 'react-icons/fi'
 import { MdDescription } from 'react-icons/md'
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
-import resume from '../doc/KevinLukResume.pdf'
 
 const IconLinks = () => {
     return (
@@ -66,7 +65,7 @@ const IconLinks = () => {
                 }
             >
                 <a
-                    href={resume}
+                    href={process.env.PUBLIC_URL + "/doc/KevinLukResume.pdf"}
                     download
                     style={{ color: 'black' }}
                 >
