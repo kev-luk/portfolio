@@ -16,7 +16,7 @@ const Home = () => {
         <animated.div style={props} className="text-center home">
             <Typing />
             <p className="description">
-                I'm a student at the University of Virginia studying computer science and an aspiring full stack web developer.
+                Associate Software Engineer at CoStar Group.
                 Feel free to check out my work in the links below or contact me.
                 Have a great day!
             </p>
