@@ -16,7 +16,7 @@ const Home = () => {
         <animated.div style={props} className="text-center home">
             <Typing />
             <p className="description">
-                Associate Software Engineer at CoStar Group.
+                Software Engineer at CoStar Group.
                 Feel free to check out my work in the links below or contact me.
                 Have a great day!
             </p>
