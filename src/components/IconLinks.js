@@ -50,7 +50,7 @@ const IconLinks = () => {
                 }
             >
                 <a
-                    href="mailto:luk3388@gmail.com"
+                    href="mailto:khl7wh@virginia.edu"
                     style={{ color: 'black' }}
                 >
                     <FiMail className="icon" />
